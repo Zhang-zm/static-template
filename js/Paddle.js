@@ -9,6 +9,5 @@ export default function Paddle() {
         speed: 5
     };
 
-    console.log(o);
     return o;
 }
