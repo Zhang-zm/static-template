@@ -1,12 +1,18 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Static Template</title>
-  </head>
-  <body>
-    <h1>This is a static template, there is no bundler or bundling involved!</h1>
-  </body>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>game 1 --- 打砖块</title>
+        <link rel="stylesheet" type="text/css" href="style.css" />
+    </head>
+
+    <body>
+        <canvas id="id-canvas" width="400" height="300"></canvas>
+
+        <script type="module">
+            import main from './js/main.js';
+
+            main();
+        </script>
+    </body>
 </html>
